@@ -145,7 +145,7 @@ class MoviesApp {
           filterByGenre(movie, selectedGenre)
         );
         if(event.target.checked) {
-          matchedMovies.forEach((movie) => changeRowBgColor(movie.title)); 
+          matchedMovies.forEach((movie) => changeRowBgColor(movie.title, true, selectedGenre.toLowerCase())); 
         } else {
           resetTableState(matchedMovies);
         }
