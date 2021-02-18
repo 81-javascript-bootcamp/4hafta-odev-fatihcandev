@@ -1,0 +1,41 @@
+body {
+    background-color: #dbe2ef;
+}
+
+.movie-image {
+    border-radius: 6px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media (min-width: 768px) {
+    .movie-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.box {
+    margin: 15px 0;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #3f72af;
+    color: white;
+}
+
+.btn.search {
+    border: none;
+    background-color: #112d4e;
+    width: 100%;
+}
+
+.btn.search:hover {
+    background-color: #112d4e;
+}
+
+.blue-bg {
+    background-color: #112d4e;
+    color: white !important;
+}
